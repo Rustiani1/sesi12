@@ -1,0 +1,25 @@
+{
+  "name": "belajar_nodejs_unit_test",
+  "version": "1.0.0",
+  "description": "belajar nodejs unit test",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbost" : true,
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "Rustiani",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "babel-jest": "^29.7.0"
+  }
+}
